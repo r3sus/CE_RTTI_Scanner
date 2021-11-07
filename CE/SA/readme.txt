@@ -1,6 +1,8 @@
-# Cheat Engine RTTI Reverse Lookup script
+# RTTI Reverse Lookup - Cheat Engine script - standalone
 
-find instances of the class 
+search for RTTI classes and instances
+
+launches RTTI.lua
 
 ## Demo
 
@@ -50,3 +52,4 @@ debug output
 ## Unoptimized scan
 
 doesn't accounts page protection
+upd: switched to +W

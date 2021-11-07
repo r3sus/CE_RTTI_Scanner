@@ -2,7 +2,7 @@ function rscan()
 
 s=createMemScan()
 
-s.firstScan(soExactValue, vtString, rtRounded, '.?AV', '', getAddress(process) ,getAddress(process)+getAddress(getModuleSize(process)) ,"*W*X*C" ,fsmNotAligned ,'1' ,false ,true, false, true); --0 str F
+s.firstScan(soExactValue, vtString, rtRounded, '.?AV', '', getAddress(process) ,getAddress(process)+getAddress(getModuleSize(process)) ,"+W" ,fsmNotAligned ,'1' ,false ,true, false, true); --0 str F
 s.waitTillDone()
 
 fl=createFoundList(s)
